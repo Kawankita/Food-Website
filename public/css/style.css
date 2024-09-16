@@ -115,3 +115,27 @@ body {
     line-height: 32px;
     font-size: 20px;
 }
+/* menu section */
+.menu .container .menu_title h1 {
+    font-family: var(--heading-font);
+    color: var(--font-color);
+    font-size: 55px;
+    font-weight: 500;
+}
+.menu .container .row .card {
+    width: 306px;
+}
+.menu .container .row .card .card-body h5 {
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: -1px;
+}
+.menu .container .row .card .card-body p {
+    font-size: 16px;
+    font-weight: 400;
+}
+.menu .container .row .card .card-body a {
+    font-size: 16px;
+    font-weight: 700;
+    color: var(--secondary) !important;
+}
