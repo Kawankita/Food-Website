@@ -19,6 +19,31 @@
 body {
     background-color: #ffffff;
 }
+
+p {
+    font-size: 16px;
+    font-weight: 400;
+}
+/* button */
+.btn_box {
+    border-radius: 50px;
+    background-color: transparent;
+    padding: 20px 32px;
+    border: 1.5px solid #2c2f24;
+    color: var(--font-color);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-right: 16px;
+}
+.btn-box {
+    background-color: var(--secondary);
+    border-radius: 50px;
+    padding: 20px 32px;
+    color: #ffffff;
+    font-size: 1rem;
+    font-weight: 700;
+    margin-right: 16px;
+}
 /* top bar */
 .top_bar {
     display: flex;
@@ -61,7 +86,7 @@ body {
     margin-right: 8px;
     border-radius: 34px;
 }
-.navbar .navbar-nav .btn-box {
+.navbar .navbar-nav .nav-btn {
     color: var(--font-color);
     font-size: 16px;
     font-weight: 700;
@@ -87,25 +112,7 @@ body {
     justify-content: center;
     align-items: center;
 }
-.hero_section .hero .buttons a {
-    background-color: var(--secondary);
-    border-radius: 50px;
-    padding: 20px 32px;
-    color: #ffffff;
-    font-size: 1rem;
-    font-weight: 700;
-    margin-right: 16px;
-}
-.hero_section .hero .buttons a:nth-child(2) {
-    border-radius: 50px;
-    background-color: transparent;
-    padding: 20px 32px;
-    border: 1.5px solid #2c2f24;
-    color: var(--font-color);
-    font-size: 1rem;
-    font-weight: 700;
-    margin-right: 16px;
-}
+
 .hero_section .hero .hero_title h1 {
     line-height: 96px;
     font-family: var(--heading-font);
@@ -124,6 +131,7 @@ body {
 }
 .menu .container .row .card {
     width: 306px;
+    margin-right: 24px;
 }
 .menu .container .row .card .card-body h5 {
     font-size: 24px;
@@ -138,4 +146,83 @@ body {
     font-size: 16px;
     font-weight: 700;
     color: var(--secondary) !important;
+}
+
+/* about */
+
+.about .container .row .card {
+    position: absolute;
+    top: 295px;
+    left: 238px;
+}
+.about .container .row .card .card-body {
+    color: #ffffff;
+}
+.about .container .card .card-body .info i {
+    color: #ffffff;
+}
+.about .container .card .card-body .info p {
+    font-size: 16px;
+    color: #ffffff;
+}
+.about .container .row .about_title {
+    font-family: var(--heading-font);
+    font-size: 55px;
+}
+.about .container .row .about_p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #2c2f24;
+}
+.about .container .row .about_p:nth-child(3) {
+    font-size: 16px;
+    font-weight: 400;
+    color: #2c2f24;
+}
+
+/* service */
+.service .container .service_title {
+    font-size: 55px;
+    font-family: var(--heading-font);
+    font-weight: 500;
+}
+.service .container .service_card .service_card_title {
+    font-size: 24px;
+    font-weight: 700;
+}
+/* content */
+
+.content .container .row .content_title {
+    font-family: var(--heading-font);
+    font-size: 55px;
+}
+.content .container .row .content_text {
+    font-size: 16px;
+    font-weight: 400;
+    color: #474747;
+}
+/* tstimonial */
+.testimonial .row .testimonial_title {
+    font-size: 55px;
+    font-weight: 500;
+    font-family: var(--heading-font);
+}
+.testimonial .row .card {
+    background-color: #f9f9f7;
+}
+.testimonial .row .card .card-body .card-title {
+    color: var(--secondary);
+    font-size: 24px;
+    font-weight: 700;
+}
+.testimonial .row .card .card-body .card-text {
+    font-size: 18px;
+    font-weight: 400;
+}
+.testimonial .row .card .card-body .user {
+    border-top: 1px solid #dbdfd0;
+}
+/* blog */
+.blog .container .row .blog .blog_info {
+    background-color: #ffffff;
 }
