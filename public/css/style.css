@@ -24,6 +24,9 @@ p {
     font-size: 16px;
     font-weight: 400;
 }
+li {
+    list-style: none;
+}
 /* button */
 .btn_box {
     border-radius: 50px;
@@ -35,6 +38,7 @@ p {
     font-weight: 700;
     margin-right: 16px;
 }
+
 .btn-box {
     background-color: var(--secondary);
     border-radius: 50px;
@@ -44,6 +48,7 @@ p {
     font-weight: 700;
     margin-right: 16px;
 }
+
 /* top bar */
 .top_bar {
     display: flex;
@@ -63,11 +68,13 @@ p {
 .top_bar .info p {
     color: #ffffff;
 }
+.top_bar .sosial a {
+    margin-right: 4px;
+    padding: 8px;
+}
 .top_bar .sosial i {
     color: #ffffff;
-    padding: 5px;
-    margin-right: 4px;
-    font-size: 14px;
+    font-size: 16px;
 }
 .call {
     display: flex;
@@ -86,6 +93,7 @@ p {
     margin-right: 8px;
     border-radius: 34px;
 }
+
 .navbar .navbar-nav .nav-btn {
     color: var(--font-color);
     font-size: 16px;
@@ -223,6 +231,55 @@ p {
     border-top: 1px solid #dbdfd0;
 }
 /* blog */
-.blog .container .row .blog .blog_info {
+
+.blog .container .row .blog .main_blog {
+    padding: 30px 25px 14px 25px;
     background-color: #ffffff;
+    height: 253px;
+}
+.blog .container .row .blog .blog_info {
+    padding: 30px 25px 14px 25px;
+    background-color: #ffffff;
+}
+/* footer */
+
+.footer .container .footer_section .footer_logo h3 {
+    font-size: 35px;
+    font-family: var(--heading-font);
+    color: #ffffff;
+    margin-left: 13px;
+}
+.footer .container .footer_section .detail_text p {
+    font-size: 16px;
+    color: #adb29e;
+    font-weight: 400;
+}
+.footer .container .footer_section .sosial a {
+    margin-right: 4px;
+    padding: 8px;
+}
+.footer .container .footer_section .sosial i {
+    color: #ffffff;
+    font-size: 18px;
+}
+.footer .container .footer_section .pages p {
+    margin-bottom: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 16px;
+}
+.footer .container .footer_section .pages li {
+    color: #dbdfd0;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.footer .container .footer_section .images img {
+    margin: 0 15px 15px 0;
+}
+.footer .container .footer_section .images p {
+    margin-bottom: 40px;
+    font-weight: 700;
+    color: #ffffff;
+    font-size: 16px;
 }
